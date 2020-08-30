@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 20px auto;
+    
+
+}
+
+.header h2{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: gray;
+    border-bottom:1px solid rgb(161, 161, 161);
+    padding-bottom: 5px;
+}
+.main{
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+    
+} 
+
+
+
+form .form-control{
+    margin-top: 10px;
+    width: 100%;  
+}
+ 
+.space{
+    width: 15%;
+    display: inline-block;
+}
+.spacex{
+    width: 15.5%;
+    display: inline-block;
+
+}
+ 
+form label{ 
+    color: gray;
+    width: 15%;
+    display: inline-block;
+} 
+
+form .my-input{
+    width: 75%;
+    padding: 5px;
+    font-size: 15px ;
+    outline: none;
+    margin: 5px 0;
+}
+form  #plas-button,
+form .trash-button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    line-height: 0px;
+    padding: 5px ;
+    font-size: 20px;
+    color: green; 
+}
+
+
+
+
